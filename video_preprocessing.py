@@ -20,9 +20,9 @@ def get_videos(dir):
     return path_list
 
 def resize_image(img):
-    # Resize image to 1000x1000
-    width = 1000
-    height = 1000
+    # Resize image to 256x256
+    width = 256
+    height = 256
     dim = (width, height)
     resized = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
     return resized
@@ -37,7 +37,7 @@ def main():
         success,image = vidcap.read()
         count = 0
         while success:
-            cv2.imwrite("./gan_data/v{}frame{}.jpg".format(vidnum, count), resize_image(image))     # save frame as JPEG file      
+            cv2.imwrite("./gan_data/clouds/v{}frame{}.jpg".format(vidnum, count), resize_image(image))     # save frame as JPEG file      
             success,image = vidcap.read()
             count += 1
         print("Video {}: Complete".format(vidnum))

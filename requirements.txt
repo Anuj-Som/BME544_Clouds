@@ -2,7 +2,7 @@ numpy
 scipy
 matplotlib
 pandas
-tensorflow-gpu
+tensorflow
 imageio
 notebook
 opencv-python
