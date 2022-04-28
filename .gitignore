@@ -130,3 +130,4 @@ dmypy.json
 
 # Compiled frames/large videos
 gan_data/
+gan_data.zip

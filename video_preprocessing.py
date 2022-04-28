@@ -21,8 +21,8 @@ def get_videos(dir):
 
 def resize_image(img):
     # Resize image to 256x256
-    width = 256
-    height = 256
+    width = 64
+    height = 64
     dim = (width, height)
     resized = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
     return resized
