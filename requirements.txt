@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+pandas
+tensorflow
+imageio
+notebook
+opencv-python
+json

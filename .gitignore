@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Compiled frames/large videos
+gan_data/
+gan_data.zip
+cnn_data/
+cnn_data.zip
