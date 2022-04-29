@@ -15,7 +15,6 @@ def get_videos(dir):
         # checking if it is a file
         
         if os.path.isfile(f):
-            print(f)
             path_list.append(f)
     return path_list
 
